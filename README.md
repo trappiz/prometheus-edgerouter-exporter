@@ -1,7 +1,7 @@
 # prometheus-edgerouter-exporter
 This project contains files to export metrics from a edgerouter on a raspberry pi with prometheus already running on it.
 
-# Start
+## Start
 To get the exporter up and running there are a few manual steps you'll need to perform:
 - Make sure SNMP is enabled on your Edgerouter and the community string is set.
 - Modify `.edgerouter.auth.community` in `snmp.yml` to match your community
