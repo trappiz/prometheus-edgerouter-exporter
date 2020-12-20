@@ -1,0 +1,32 @@
+modules:
+  edgerouter:
+    auth:
+      community: prometheus
+    walk:
+    - memTotalReal
+    - memAvailReal
+    - ssCpuRawIdle
+    - hrSystemUptime
+    - hrSystemProcesses
+    - hrSystemMaxProcesses
+    - hrMemorySize
+    - hrStorageSize
+    - hrStorageUsed
+    - hrProcessorLoad
+    - ifAdminStatus
+    - ifOperStatus
+    - ifLastChange
+    - ifInDiscards
+    - ifInErrors
+    - ifOutDiscards
+    - ifOutErrors
+    - ifHCInOctets
+    - ifHCOutOctets
+    - tcpMaxConn
+    - tcpActiveOpens
+    - tcpPassiveOpens
+    - tcpEstabResets
+    - tcpCurrEstab
+    lookups:
+    - old_index: ifIndex
+      new_index: ifName
