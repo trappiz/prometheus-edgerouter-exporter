@@ -1,5 +1,5 @@
 # prometheus-edgerouter-exporter
-This project contains files to export metrics from a edgerouter on a raspberry pi with prometheus already running on it.
+This project contains files to export metrics from an ubiquiti edgerouter using docker with prometheus already running on it.
 
 ## Start
 To get the exporter up and running there are a few manual steps you'll need to perform:
